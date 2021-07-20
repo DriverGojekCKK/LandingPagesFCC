@@ -1,0 +1,235 @@
+       body {
+       padding-top: 70px;
+       }
+       
+       html {
+       scroll-behavior: smooth;
+       }
+       
+       /* NAVBAR */
+
+       .navbar {
+       position:fixed;
+       z-index: 999;
+       background-color: white;
+       }
+       
+      .navbar-brand {
+      font-family: odibee sans, sans-serif;
+      font-size: 25px;
+      
+      
+      }
+      .navbar-brand .nav-link {
+       color: solid #white;
+      
+      }
+      
+      
+      .tombol {
+       text-transform: uppercase;
+       border-radius: 40px;
+      
+      }
+      
+      /* INFO PANEL */
+      
+      .info-panel {
+       background-color: #ffffff;
+       margin-top: -45px;;
+       
+      }
+      .info-panel p {
+      color: #acacac;
+      }
+      
+      .info-panel h4 {
+      font-size: 25px;
+       margin-top: 8px;
+      }
+      
+      /* VIDEO */
+      
+      #video-list, h2 {
+      text-align:center;
+      padding-top: 90px;
+      }
+      
+      section h2 {
+      margin: 30px auto;
+      }
+      
+      iframe {
+      border: 3px solid black;
+      width: 100%;
+      height: 300px;
+      }
+      
+      /* JUMBOTRON */
+      
+      .jumbotron .display-4 {
+       margin-top: 50px;
+       color: #ffffff;
+       font-weight: 200;
+       font-size: 27px;
+       text-shadow: #black;
+      
+      
+      }
+      
+      .jumbotron .display-4 span{
+      font-weight: 450;
+      font-size: 30px;
+      
+      }
+      
+      .jumbotron {
+        background-image: url(img/jumbotron-bg.jpg);
+        background-size: cover;
+        height: 540px;
+        text-align: center;
+        position: relative;
+      
+      }
+      
+      .jumbotron::after {
+       content: '';
+       display: block;
+       width: 100%;
+       height: 100%;
+       background-image: linear-gradint(to, top #rgba(0,0,0,1),#rgba(0,0,0,0))
+       position: absolute;
+       bottom: 0;
+      }
+      .jumbotron, .container {
+      z-index: 1;
+      position: relative;
+      }
+      
+      
+      
+      .lead {
+      color: #ffffff;
+      
+      }
+      
+      /* WORKINGSPACE */
+      
+      .workingspace {
+       margin-top: 125px;
+       text-align: center;
+      }
+      .workingspace h3 {
+       font-size: 52px;
+       font-weight: 200;
+       text-transform: uppercase;
+       
+      }
+      .workingspace h3 span {
+       font-weight: 500;
+      }
+      
+      .workingspace p {
+       color: #acacac;
+       font-size: 20px;
+       margin: 20px 0;
+      }
+      
+      /* TESTIMONI */
+      
+      .testimoni h4{
+      text-align: center;
+      text-size: 18px;
+      margin-top: 50px;
+      font-weight: 200;
+      text-family: italic;
+      
+      }
+      
+      .figure {
+      text-align: center;
+      
+      
+      }
+      
+      .figure h5 {
+      font-weight: 800;
+      font-size: 20px;
+      text-family: bold;
+            
+      }
+      
+      .figure p {
+      color: #acacac;
+      font-size: 15px;
+      
+      }
+      
+      .figure img {
+      
+      }
+      
+      form, input {
+      display:block;
+      margin:10px auto;
+      width: 300px;
+      }
+      
+      form #submit {
+      background-color: blue;
+      color: white;
+      width: 100px;
+      border: 0;
+      border-radius: 5px;
+      }
+      
+      
+     
+      /* MODE DESKTOP */
+      
+      media (max-width: 991.98px) { 
+      
+      .navbar-brand, .nav-link {
+        color: #ffffff !important;
+      
+      
+      }
+      
+       .navbar-brand {
+       font-size: 62px;
+       
+       }
+       
+       .nav-link {
+       text-transform: uppercase;
+       }
+       
+       
+       .nav-link:hover::after {
+       content: '';
+       display: block;
+       border-radius: 3px solid #4287f5;
+       width: 50%;
+       margin: auto;
+       
+       }
+       
+       .jumbotron {
+       Height: 640px;
+       margin-top: 75px;
+       
+       }
+        
+       
+      
+       
+       .jumbotron .display-4 {
+       font-size: 52px;
+       
+       }
+       
+       .workingspace {
+       text-align: left;
+       }
+       
+       }
